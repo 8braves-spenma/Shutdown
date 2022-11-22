@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,900;1,300;1,700&family=Rubik+Glitch&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: 'Rubik Glitch', cursive;
+    color: hsl(0, 0%, 0%);
+    font-weight: normal;
+    font-size: 60px;
+    margin: -150px 0 5px;
+}
+
+h3 {
+    font-family: 'Rubik Glitch', cursive;
+    font-weight: normal;
+    color: hsl(0, 0%, 0%);
+    font-size: 40px;
+    margin: 20 0 50;
+}
+
+.countdown {
+    display: flex;
+    transform: scale(2);
+}
+
+.time {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    color: hsl(0, 0%, 0%);
+}
+
+.time h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1;
+    margin: 0 0 5px;
+    color: hsl(0, 0%, 0%);
+}
+
+@media(max-width:500px){
+    h1{
+        font-size: 45px;
+    }
+    .time{
+        margin: 5px;
+    }
+    .time h2{
+        font-size: 12px;
+    }
+    .time small{
+        font-size: 10px;
+    }
+}
